@@ -11,7 +11,7 @@ const CourseCard = (props) => {
 				<p className="course-title">{props.course.title}</p>
 				<p className="course-subtitle">{props.course.instructor}</p>
 				<div className="course-rating">
-					<p className="course-rating-text">4.4</p>
+					<p className="course-rating-text">{props.course.rating}</p>
 					<StarRatings
 						rating={props.course.rating}
 						starDimension="14px"
@@ -31,6 +31,19 @@ const CourseCard = (props) => {
 			</div>
 		</div>
 	);
+};
+
+// for testing purposes
+CourseCard.defaultProps = {
+	course: {
+		image: 'https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg',
+		title: 'Course Title',
+		instructor: 'Instructor',
+		rating: 4.5,
+		studentCount: 100,
+		price: '$100',
+		bestSeller: true,
+	},
 };
 
 export default CourseCard;
