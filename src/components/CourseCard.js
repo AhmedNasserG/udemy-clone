@@ -22,12 +22,12 @@ const CourseCard = (props) => {
 				</div>
 				<p className="course-price">{props.course.price}</p>
 
-				{props.course.bestSeller ? (
+				{props.course.bestSeller && (
 					<div className="best-seller">
 						{' '}
 						<p className="best-seller-text">Bestseller</p>
 					</div>
-				) : null}
+				)}
 			</div>
 		</div>
 	);
