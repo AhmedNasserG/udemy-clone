@@ -3,12 +3,12 @@ import './CategoryCard.css';
 
 const CategoryCard = ({ categoryName, imgSrc }) => {
 	return (
-		<div class='col-lg-3 col-md-4 col-sm-12'>
-			<div class='category-card'>
-				<div class='category-card-img-container'>
-					<img src={imgSrc} alt={categoryName} class='category-card-img' />
+		<div className='col-lg-3 col-md-4 col-sm-12'>
+			<div className='category-card'>
+				<div className='category-card-img-container'>
+					<img src={imgSrc} alt={categoryName} className='category-card-img' />
 				</div>
-				<span class='category-card-body'>{categoryName}</span>
+				<span className='category-card-body'>{categoryName}</span>
 			</div>
 		</div>
 	);

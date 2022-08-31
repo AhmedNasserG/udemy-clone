@@ -33,15 +33,19 @@ const responsive = {
 	},
 };
 
-const CardsSlider = (props) => {
+const CardsSlider = ({ title, description, courses }) => {
 	return (
-		<div className="courses-container">
-			<h2>{props.title}</h2>
-			<p className="category-description">{props.description}</p>
-			<button className="explore-button">Explore Python</button>
-			<div className="cards-slider">
-				<Carousel responsive={responsive} containerClass="cards-slider" itemClass="course-card">
-					{props.courses.map((course) => (
+		<div className='courses-container'>
+			<h2>{title}</h2>
+			<p className='category-description'>{description}</p>
+			<button className='explore-button'>Explore Python</button>
+			<div className='cards-slider'>
+				<Carousel
+					responsive={responsive}
+					containerClass='cards-slider'
+					itemClass='course-card'
+				>
+					{courses.map((course) => (
 						<CourseCard key={course.id} course={course} />
 					))}
 				</Carousel>
@@ -70,7 +74,8 @@ CardsSlider.defaultProps = {
 		},
 		{
 			id: 2,
-			image: 'https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg',
+			image:
+				'https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg',
 			title: 'javascript from zero to hero',
 			instructor: 'stephen',
 			rating: 4.7,
@@ -120,7 +125,8 @@ CardsSlider.defaultProps = {
 		},
 		{
 			id: 2,
-			image: 'https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg',
+			image:
+				'https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg',
 			title: 'javascript from zero to hero',
 			instructor: 'stephen',
 			rating: 4.7,

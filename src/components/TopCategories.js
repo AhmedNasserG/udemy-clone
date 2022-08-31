@@ -5,11 +5,15 @@ import './TopCategories.css';
 const TopCategories = ({ categories }) => {
 	return (
 		<div>
-			<p class='section-title'>Top Categories</p>
+			<p className='section-title'>Top Categories</p>
 
-			<div class='row row-cols-4'>
+			<div className='row row-cols-4'>
 				{categories.map((category) => (
-					<CategoryCard categoryName={category.name} imgSrc={category.img} />
+					<CategoryCard
+						key={category.name}
+						categoryName={category.name}
+						imgSrc={category.img}
+					/>
 				))}
 			</div>
 		</div>
