@@ -1,0 +1,15 @@
+.active {
+	color: black !important;
+}
+
+.tab-header {
+	color: gray;
+	font-size: 16px;
+	font-weight: 600;
+	background: none;
+	border: none;
+}
+
+.tab-header:hover {
+	color: #1c1d1f;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import './TabItem.css';
 
 const TabItem = ({ tabName, active }) => {
 	return (
 		<div>
 			<button
-				className={'category ' + (active ? 'active' : '')}
+				className={'tab-header' + (active ? ' active' : '')}
 				id={`nav-${tabName.replaceAll(' ', '-')}-tab`}
 				data-bs-toggle='tab'
 				data-bs-target={`#nav-${tabName.replaceAll(' ', '-')}`}
