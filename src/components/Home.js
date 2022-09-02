@@ -1,13 +1,12 @@
 import React from 'react';
-import CardsSlider from './CardsSlider';
-import Navbar from './Navbar';
+import CoursesCategoriesSection from './CoursesCategoriesSection';
 import TopCategories from './TopCategories';
+import './Home.css';
 
 const Home = () => {
 	return (
 		<div className='home'>
-			<Navbar />
-			<CardsSlider />
+			<CoursesCategoriesSection />
 			<TopCategories />
 		</div>
 	);
