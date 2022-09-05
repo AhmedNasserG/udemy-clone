@@ -1,0 +1,47 @@
+.sticky-info-bar {
+	height: 77px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	padding: 16px 24px;
+	background-color: #1e1f1f;
+	display: flex;
+}
+
+.sticky-info-bar-course-name {
+	font-weight: 700;
+	color: white;
+}
+
+.sticky-info-bar-course-price {
+	display: none;
+	margin: auto 16px auto auto;
+	color: white;
+	font-size: 19px;
+	font-weight: 800;
+	letter-spacing: -0.1rem;
+}
+
+.sticky-info-bar-course-buy {
+	display: none;
+	height: 48px;
+	width: 87px;
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+}
+
+@media screen and (max-width: 1080px) {
+	.sticky-info-bar {
+		position: fixed;
+		bottom: 0;
+		top: auto;
+	}
+	.sticky-info-bar-course-price {
+		display: block;
+	}
+	.sticky-info-bar-course-buy {
+		display: block;
+	}
+}
