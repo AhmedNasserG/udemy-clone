@@ -1,0 +1,125 @@
+.course-header {
+	height: 333px;
+	background-color: #1e1f1f;
+	display: flex;
+	justify-content: center;
+	padding: 32px 0;
+	margin-top: 77px;
+}
+
+.course-header-content {
+	padding: 0 24px;
+}
+
+.course-name {
+	font-weight: 700;
+	color: white;
+	max-width: 700px;
+	font-size: 32px;
+	line-height: 1.2;
+	margin-bottom: 8px;
+}
+
+.course-description {
+	font-size: 19px;
+	color: white;
+	max-width: 700px;
+	margin-bottom: 11px;
+	line-height: 1.4;
+}
+
+.creators-section {
+	color: white;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.creators-name {
+	color: #cebffc;
+	text-decoration: underline;
+}
+
+.course-meta {
+	color: white;
+	font-size: 13px;
+	display: flex;
+	margin-top: 5px;
+}
+
+.meta-icon {
+	margin-right: 8px;
+	height: 20px;
+}
+
+.meta-info {
+	margin-right: 15px;
+}
+
+.course-meta div {
+	margin-bottom: 8px;
+}
+
+.course-header-content-course-price {
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: -0.1rem;
+	color: white;
+}
+
+.course-header-content-course-add-to-cart {
+	height: 48px;
+	width: 600px;
+	font-weight: 700;
+	font-size: 16px;
+	background-color: rgb(164, 53, 240);
+	color: white;
+	border: none;
+	padding: 0 12px;
+	margin: 10px 0;
+}
+
+.course-header-content-subtitle {
+	font-size: 12px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+	color: white;
+}
+
+.min-screen .course-actions {
+	color: white;
+}
+
+/* Responsive settings */
+
+.min-screen {
+	display: none;
+}
+
+.min-screen .course-video {
+	width: 600px;
+	height: 337px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+	.max-screen {
+		display: none;
+	}
+	.min-screen {
+		display: block;
+	}
+	.course-header {
+		height: 963px;
+		margin-top: 70px;
+	}
+	.course-name {
+		max-width: 600px;
+	}
+	.course-header-content {
+		width: 600px;
+	}
+	.course-meta {
+		display: inline;
+	}
+}
