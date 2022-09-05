@@ -1,0 +1,42 @@
+.badge-ratings-enrollment {
+	display: flex;
+}
+
+.badge {
+	height: 22px;
+	width: 71px;
+	font-size: 11px;
+	border-radius: 0;
+	background-color: rgb(236, 235, 152);
+	color: rgb(61, 60, 10);
+	margin-right: 8px;
+	margin-top: 5px;
+	padding-top: 6px;
+}
+
+.course-rating-text {
+	color: #f2ca8c;
+	font-weight: 700;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-top: 5px;
+}
+
+.course-rating-stars {
+	height: 22px;
+}
+
+.rates-count {
+	color: #cebffc;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+
+.enrolled-count {
+	color: white;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
