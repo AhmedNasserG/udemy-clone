@@ -1,0 +1,10 @@
+.course-path {
+	color: #cebffc;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: -0.02rem;
+	white-space: nowrap;
+	scroll-snap-align: start;
+	--bs-breadcrumb-divider: '>';
+}
