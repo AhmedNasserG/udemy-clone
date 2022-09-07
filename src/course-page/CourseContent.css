@@ -1,0 +1,28 @@
+.course-content-info {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.course-content-info div {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.expand-all {
+	color: #5624d0;
+	font-weight: 700 !important;
+	font-size: 14px;
+	margin-left: auto;
+	border: none;
+	background: none;
+}
+
+.more-sections-button {
+	height: 40px;
+	width: 100%;
+	background-color: transparent;
+	margin-top: 16px;
+	font-weight: 700;
+	font-size: 14px;
+	border: 1px solid black;
+}
