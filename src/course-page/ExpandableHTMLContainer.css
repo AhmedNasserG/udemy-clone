@@ -1,0 +1,15 @@
+.description-section-collapse {
+	max-height: 300px !important;
+	overflow: hidden;
+	background: -webkit-linear-gradient(90deg, #eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.description-show-more-button {
+	background: transparent;
+	border: none;
+	color: #5624d0;
+	font-weight: 700;
+	font-size: 14px;
+}
