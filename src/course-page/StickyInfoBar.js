@@ -2,15 +2,17 @@ import React from 'react';
 import BadgeRatedEnrolled from './BadgeRatedEnrolled';
 import './StickyInfoBar.css';
 
-const StickyInfoBar = ({ courseName, coursePrice }) => {
+const StickyInfoBar = ({ courseInfo }) => {
 	return (
 		<div className='sticky-info-bar'>
 			<div>
-				<div className='sticky-info-bar-course-name'>{courseName}</div>
-				<BadgeRatedEnrolled />
+				<div className='sticky-info-bar-course-name'>
+					{courseInfo.courseName}
+				</div>
+				<BadgeRatedEnrolled courseInfo={courseInfo} />
 			</div>
 			<div className='sticky-info-bar-course-price min-screen'>
-				{coursePrice}
+				{courseInfo.coursePrice}
 			</div>
 			<button className='sticky-info-bar-course-buy min-screen'>Buy now</button>
 		</div>
@@ -18,8 +20,10 @@ const StickyInfoBar = ({ courseName, coursePrice }) => {
 };
 
 StickyInfoBar.defaultProps = {
-	courseName: 'Python for Beginners - Learn Programming from scratch',
-	coursePrice: 'E£679.99',
+	courseInfo: {
+		courseName: 'Python for Beginners - Learn Programming from scratch',
+		coursePrice: 'E£679.99',
+	},
 };
 
 export default StickyInfoBar;

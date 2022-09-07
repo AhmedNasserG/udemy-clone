@@ -2,7 +2,7 @@ import React from 'react';
 import CourseVideo from './CourseVideo';
 import './SideMenu.css';
 
-const SideMenu = ({ coursePrice }) => {
+const SideMenu = ({ courseInfo }) => {
 	document.addEventListener('scroll', () => {
 		const scrollValue = window.scrollY;
 		if (scrollValue > 370) {
@@ -22,10 +22,10 @@ const SideMenu = ({ coursePrice }) => {
 	return (
 		<div className='side-menu'>
 			<div className='side-menu-header'>
-				<CourseVideo />
+				<CourseVideo imgSrc={courseInfo.img} />
 			</div>
 			<div className='side-menu-content'>
-				<div className='side-menu-course-price'>{coursePrice}</div>
+				<div className='side-menu-course-price'>{courseInfo.price}</div>
 				<button className='side-menu-btn btn-1'>Add to cart</button>
 				<button className='side-menu-btn btn-2'>Buy now</button>
 				<div className='return-policy-text'>30-Day Money-Back Guarantee</div>
@@ -88,7 +88,10 @@ const SideMenu = ({ coursePrice }) => {
 };
 
 SideMenu.defaultProps = {
-	coursePrice: 'E£679.99',
+	courseInfo: {
+		price: 'E£679.99',
+		img: 'https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg',
+	},
 };
 
 export default SideMenu;

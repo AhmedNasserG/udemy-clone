@@ -6,30 +6,22 @@ import BadgeRatedEnrolled from './BadgeRatedEnrolled';
 import CourseBreadcrumb from './CourseBreadcrumb';
 import './CourseHeader.css';
 
-const CourseHeader = ({
-	courseName,
-	courseDecription,
-	courseCreators,
-	courseLastUpdate,
-	courseLanguage,
-	courseCaption,
-	coursePrice,
-}) => {
+const CourseHeader = ({ courseInfo }) => {
 	return (
 		<div>
-			<StickyInfoBar />
+			<StickyInfoBar courseInfo={courseInfo} />
 			<div className='course-header'>
 				<div className='course-header-content'>
-					<CourseBreadcrumb />
+					<CourseBreadcrumb coursePath={courseInfo.path} />
 					<div className='min-screen'>
-						<CourseVideo />
+						<CourseVideo imgSrc={courseInfo.img} />
 					</div>
-					<div className='course-name'>{courseName}</div>
-					<div className='course-description'>{courseDecription}</div>
-					<BadgeRatedEnrolled />
+					<div className='course-name'>{courseInfo.name}</div>
+					<div className='course-description'>{courseInfo.decription}</div>
+					<BadgeRatedEnrolled courseInfo={courseInfo} />
 					<div className='creators-section'>
 						Created by{' '}
-						{courseCreators.map((creator) => (
+						{courseInfo.creators.map((creator) => (
 							<>
 								<span key={creator} className='creators-name'>
 									{creator}
@@ -40,20 +32,20 @@ const CourseHeader = ({
 					<div className='course-meta'>
 						<div>
 							<img src='/icons/caution.png' className='meta-icon'></img>
-							<span className='meta-info'>{courseLastUpdate}</span>
+							<span className='meta-info'>{courseInfo.lastUpdate}</span>
 						</div>
 						<div>
 							<img src='/icons/language.png' className='meta-icon'></img>
-							<span className='meta-info'>{courseLanguage}</span>
+							<span className='meta-info'>{courseInfo.language}</span>
 						</div>
 						<div>
 							<img src='/icons/close-caption.png' className='meta-icon'></img>
-							<span className='meta-info'>{courseCaption}</span>
+							<span className='meta-info'>{courseInfo.caption}</span>
 						</div>
 					</div>
 					<div className='min-screen'>
 						<div className='course-header-content-course-price '>
-							{coursePrice}
+							{courseInfo.price}
 						</div>
 						<button className='course-header-content-course-add-to-cart'>
 							Add to cart
@@ -72,7 +64,7 @@ const CourseHeader = ({
 					</div>
 				</div>
 				<div className='side-menu max-screen'>
-					<SideMenu />
+					<SideMenu courseInfo={courseInfo} />
 				</div>
 			</div>
 		</div>
@@ -80,14 +72,22 @@ const CourseHeader = ({
 };
 
 CourseHeader.defaultProps = {
-	courseName: 'Learn Python: The Complete Python Programming Course',
-	courseDecription:
-		'Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!',
-	courseCreators: ['Avinash Jain', 'The Codex'],
-	courseLastUpdate: 'Last updated 9/2015',
-	courseLanguage: 'English',
-	courseCaption: 'English',
-	coursePrice: 'E£679.99',
+	courseInfo: {
+		name: 'Learn Python: The Complete Python Programming Course',
+		decription:
+			'Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!',
+		creators: ['Avinash Jain', 'The Codex'],
+		path: ['Development', 'Programming Languages', 'Python'],
+		img: 'https://img-c.udemycdn.com/course/240x135/405878_e5a0_3.jpg',
+		lastUpdate: 'Last updated 9/2015',
+		language: 'English',
+		caption: 'English',
+		price: 'E£679.99',
+		isBestSeller: true,
+		rating: 4.4,
+		ratesCount: '18,097',
+		enrolledsCount: '191,375',
+	},
 };
 
 export default CourseHeader;
