@@ -3,30 +3,26 @@ import StarRatings from 'react-star-ratings';
 
 import './CourseCard.css';
 
-const CourseCard = (props) => {
+const CourseCard = ({ course }) => {
 	return (
 		<div className='course-card'>
-			<img
-				src={props.course.image}
-				alt={props.course.title}
-				className='course-img'
-			></img>
+			<img src={course.image} alt={course.title} className='course-img'></img>
 			<div className='course-card-body'>
-				<p className='course-title'>{props.course.title}</p>
-				<p className='course-subtitle'>{props.course.instructor}</p>
+				<p className='course-title'>{course.title}</p>
+				<p className='course-subtitle'>{course.instructor}</p>
 				<div className='course-rating'>
-					<p className='course-rating-text'>{props.course.rating}</p>
+					<p className='course-rating-text'>{course.rating}</p>
 					<StarRatings
-						rating={props.course.rating}
+						rating={course.rating}
 						starDimension='14px'
 						starSpacing='1px'
 						starRatedColor='#E59719'
 					/>
-					<p className='course-student-count'>({props.course.studentCount})</p>
+					<p className='course-student-count'>({course.studentCount})</p>
 				</div>
-				<p className='course-price'>{props.course.price}</p>
+				<p className='course-price'>{course.price}</p>
 
-				{props.course.bestSeller && (
+				{course.bestSeller && (
 					<div className='best-seller'>
 						<p className='best-seller-text'>Bestseller</p>
 					</div>

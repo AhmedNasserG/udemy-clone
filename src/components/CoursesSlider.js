@@ -33,7 +33,7 @@ const responsive = {
 
 const CoursesSlider = ({ courses }) => {
 	return (
-		<Carousel responsive={responsive} itemClass='course-card'>
+		<Carousel responsive={responsive}>
 			{courses.map((course) => (
 				<CourseCard key={course.id} course={course} />
 			))}
