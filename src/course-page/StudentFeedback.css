@@ -1,0 +1,56 @@
+.feedback-body {
+	display: flex;
+	width: 100%;
+}
+.feedback-total-rating {
+	align-items: center;
+}
+
+.feedback-rating {
+	font-weight: 700;
+	font-size: 64px;
+	color: #b4690e;
+	line-height: 1;
+}
+
+.course-rating-text {
+	color: #b4690e;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.specific-rating {
+	flex: 1;
+	padding-left: 32px;
+}
+
+.specific-rating-item {
+	display: flex;
+	align-items: center;
+	height: 20px;
+	margin-bottom: 8px;
+}
+
+.progress {
+	flex: 1;
+	height: 8px;
+	background-color: #d1d7dc;
+	border-radius: 0;
+	margin-right: 8px;
+}
+
+.progress-bar {
+	background-color: #6a6f73;
+}
+
+.specific-rating-stars {
+	padding-bottom: 8px;
+	margin-right: 4px;
+}
+
+.rating-percentage {
+	color: #5624d0;
+	font-weight: 400;
+	font-size: 14px;
+	text-decoration: underline;
+}
