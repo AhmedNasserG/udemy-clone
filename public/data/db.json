@@ -1,0 +1,512 @@
+{
+	"categories": [
+		{
+			"name": "Python",
+			"title": "Expand your career opportunities with Python",
+			"description": "Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.",
+			"courses": [
+				{
+					"id": "0",
+					"image": "https://img-c.udemycdn.com/course/480x270/394676_ce3d_5.jpg",
+					"title": "Learn Python: The Complete Python Programming Course",
+					"instructor": "Avinash Jain, The Codex",
+					"rating": 4.4,
+					"studentCount": 3223,
+					"price": "E£679.99",
+					"bestSeller": true
+				},
+				{
+					"id": "1",
+					"image": "https://s.udemycdn.com/premium-clp/567828/CourseImage-2x.jpg",
+					"title": "python from zero to hero",
+					"instructor": "maximlian",
+					"rating": 3.4,
+					"studentCount": 4329,
+					"price": "$119.99",
+					"bestSeller": true
+				}
+			]
+		},
+		{
+			"name": "Web Development",
+			"title": "Build websites and applications with Web Development",
+			"description": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+			"courses": [
+				{
+					"id": "10",
+					"image": "https://img-c.udemycdn.com/course/480x270/11475_9dac_14.jpg",
+					"title": "Become a Certified HTML, CSS, JavaScript Web Developer",
+					"instructor": "Tech Learning Network, Mark Lassoff",
+					"rating": 4.4,
+					"studentCount": 2800,
+					"price": "E£679.99",
+					"bestSeller": false
+				},
+				{
+					"id": "11",
+					"image": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
+					"title": "The Complete 2020 Fullstack Web Developer Course",
+					"instructor": "Kalob Taulien",
+					"rating": 4.5,
+					"studentCount": 6240,
+					"price": "E£1299.99",
+					"bestSeller": false
+				}
+			]
+		}
+	],
+	"courses": {
+		"0": {
+			"info": {
+				"name": "Learn Python: The Complete Python Programming Course",
+				"decription": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+				"creators": ["Avinash Jain", "The Codex"],
+				"path": ["Development", "Programming Languages", "Python"],
+				"img": "https://img-c.udemycdn.com/course/480x270/394676_ce3d_5.jpg",
+				"lastUpdate": "Last updated 9/2015",
+				"language": "English",
+				"caption": "English",
+				"price": "E£679.99",
+				"isBestSeller": true,
+				"rating": 4.4,
+				"ratesCount": "18,097",
+				"enrolledsCount": "191,375"
+			},
+			"learnGoals": [
+				"To learn the python language",
+				"To learn the CORE skills to understand any programming language"
+			],
+			"requirments": [
+				"Basic knowledge of programming",
+				"Have a computer (either Mac, Windows, or Linux)"
+			],
+			"description": "<div>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>NEW PYTHON CODE&nbsp;</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis python for beginners course is geared to students who want to\n\t\t\t\t\t\tknow how python works and also to those totally new to programming.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThe python language has very simple syntax(way to write it) to learn\n\t\t\t\t\t\tand it is one of the most powerful languages to learn since it can\n\t\t\t\t\t\tused for a variety of things.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Here are some:</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<ol>\n\t\t\t\t\t\t<li>Data analysis</li>\n\t\t\t\t\t\t<li>Game development</li>\n\t\t\t\t\t\t<li>Visualization</li>\n\t\t\t\t\t\t<li>Web development</li>\n\t\t\t\t\t\t<li>Robotics</li>\n\t\t\t\t\t\t<li>and more....</li>\n\t\t\t\t\t</ol>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tJobs in this field are really lucrative and knowing this language\n\t\t\t\t\t\twill give you an edge when finding a job and making a lot more money\n\t\t\t\t\t\tthan other developers; python developers are not as many as in other\n\t\t\t\t\t\tlanguages since people think is hard. Python is super easy to learn\n\t\t\t\t\t\tbut very powerful since it contains many possibilities.\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tPython is growing faster and faster everyday and it has surpassed\n\t\t\t\t\t\tmany other languages over the years for a lot of reasons, which you\n\t\t\t\t\t\twill find out soon enough.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t------------------------------------------------------------------------------\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Why take this course?</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis course starts with explaining what programming really is? Have\n\t\t\t\t\t\tyou ever wondered how things actually work in a program?\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t1. <strong>Teaches the foundation of GENERAL programming</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tEvery student should have some foundations on what programming\n\t\t\t\t\t\treally is before learning any language, why? Because once you\n\t\t\t\t\t\tunderstand the core components of programming it will be a lot\n\t\t\t\t\t\teasier to learn any language and create better programs.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t2. <strong>New lectures added all the time</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tWhen you like what you do, it reflects. This is not a job for me, so\n\t\t\t\t\t\tI wake up wanting to code and help my students. Basically you pay\n\t\t\t\t\t\tonce, get the course forever and get extra values added all the\n\t\t\t\t\t\ttime, you have to love that :)\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t3.<strong> Fun place to be </strong>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tI love making my lectures fun and engaging, so no boring lectures\n\t\t\t\t\t\there!\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t4. <strong>T</strong>\n\t\t\t\t\t\t<strong>he support you get in this course in unmatched</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\thave you ever joined a class and received very little support or\n\t\t\t\t\t\tnone at all? Well that is not going to happen in this class, because\n\t\t\t\t\t\tI love helping my students.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\t\t\t\t</div>",
+			"content": {
+				"sectionsCount": 6,
+				"lecturesCount": 42,
+				"totalDuration": "2h 36m",
+				"sections": [
+					{
+						"id": "1",
+						"title": "Programming fundamentals",
+						"subtitle": "10 lectures • 40min",
+						"items": [
+							{
+								"title": "Introduction to programming",
+								"duration": "00:15",
+								"previewable": true
+							},
+							{
+								"title": "What is programming?",
+								"duration": "03:10",
+								"previewable": false
+							}
+						]
+					},
+					{
+						"id": "2",
+						"title": "Getting started with Python",
+						"subtitle": "5 lectures • 15min",
+						"items": [
+							{
+								"title": "Intro to getting started with Python",
+								"duration": "10:15",
+								"previewable": false
+							},
+							{
+								"title": "What is Python?",
+								"duration": "04:23",
+								"previewable": false
+							}
+						]
+					}
+				]
+			},
+			"instructors": [
+				{
+					"name": "Edwin Diaz",
+					"subtitle": "Web Developer & Premium Instructor - 800,000 students",
+					"image": "https://img-c.udemycdn.com/user/200_H/6772884_fcfc_2.jpg",
+					"rating": "4.4",
+					"reviewsCount": "123,313",
+					"studentsCount": "828,692",
+					"coursesCount": "47",
+					"description": "<div><p class=\"\"><strong class=\"\">Edwin Diaz</strong> is a software and web technologies engineer, a life coach trainer who is also a<strong class=\"\"> serial entrepreneur</strong> with multiple <strong class=\"\">online businesses,</strong> ranging from online jewelry shops, affiliate websites, application development and consultations services, personal online schools, etc.</p><p class=\"\">With over <strong class=\"\">one million students</strong>, and clients growing by the thousands a day, Mr. Diaz lets the numbers speak for themselves.</p><p class=\"\">Founding multiple online companies have allowed Mr. Diaz to have the time to teach others. He currently teaches web technologies on different online platforms. He also teaches life coaching sessions to help others achieve a high level of success in many areas of life.</p><p>For Mr. Diaz, there is nothing more rewarding than helping others become successful.</p><p>His ability to transmit energy, enthusiasm, and complex knowledge allows him to do what he does best \"Teach\".</p><p>Teaching is not just a job for Mr. Diaz but a way of life that continues to flourish every single day.</p><p>Apart from teaching he enjoys spending part of his time with his family.</p></div>"
+				},
+				{
+					"name": "Coding Faculty Solutions",
+					"subtitle": "Coding Faculty",
+					"image": "https://img-c.udemycdn.com/user/200_H/34613172_6fb4.jpg",
+					"rating": "4.4",
+					"reviewsCount": "115,018",
+					"studentsCount": "737,350",
+					"coursesCount": "38",
+					"description": "<p class=\"\">Coding Faculty creates&nbsp;high quality technology training content.&nbsp;We aim to teach technology the right&nbsp;way but at the same time putting emphasis on each of&nbsp;our students.&nbsp;We are a&nbsp;growing team of&nbsp;professional trainers who love our work but overall helping our students reach their maximum potential in their career.</p>"
+				}
+			],
+			"feedback": {
+				"rating": 4.4,
+				"fiveStarsPercent": 45,
+				"fourStarsPercent": 39,
+				"threeStarsPercent": 13,
+				"twoStarsPercent": 2,
+				"oneStarsPercent": 1
+			},
+			"reviews": [
+				{
+					"name": "Ashu C.",
+					"shortName": "AC",
+					"rating": 3,
+					"date": "3 weeks ago",
+					"content": "Senduran B. Rating: 5.0 out of 5 3 weeks ago Edwin is a wonderful\n\t\t\t\t\tteacher! His lectures are very short but also informative and really\n\t\t\t\t\tencourages you to code along with him. The lectures were not only easy\n\t\t\t\t\tto follow but Edwin himself was an engaging lecturer that made it\n\t\t\t\t\treally easy to pay attention. His words of encouragement were a nice\n\t\t\t\t\tbonus. I super recommend this course to anyone who wants to get\n\t\t\t\t\tstarted in Python"
+				},
+				{
+					"name": "Senduran B.",
+					"shortName": "SB",
+					"rating": 5,
+					"date": "3 weeks ago",
+					"content": "Edwin is a wonderful teacher! His lectures are very short but also informative and really encourages you to code along with him. The lectures were not only easy to follow but Edwin himself was an engaging lecturer that made it really easy to pay attention. His words of encouragement were a nice bonus. I super recommend this course to anyone who wants to get started in Python"
+				}
+			]
+		},
+		"1": {
+			"info": {
+				"name": "python from zero to hero",
+				"decription": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+				"creators": ["Avinash Jain", "The Codex"],
+				"path": ["Development", "Programming Languages", "Python"],
+				"img": "https://s.udemycdn.com/premium-clp/567828/CourseImage-2x.jpg",
+				"lastUpdate": "Last updated 9/2015",
+				"language": "English",
+				"caption": "English",
+				"price": "E£679.99",
+				"isBestSeller": true,
+				"rating": 4.4,
+				"ratesCount": "18,097",
+				"enrolledsCount": "191,375"
+			},
+			"learnGoals": [
+				"To learn the python language",
+				"To learn the CORE skills to understand any programming language"
+			],
+			"requirments": [
+				"Basic knowledge of programming",
+				"Have a computer (either Mac, Windows, or Linux)"
+			],
+			"description": "<div>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>NEW PYTHON CODE&nbsp;</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis python for beginners course is geared to students who want to\n\t\t\t\t\t\tknow how python works and also to those totally new to programming.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThe python language has very simple syntax(way to write it) to learn\n\t\t\t\t\t\tand it is one of the most powerful languages to learn since it can\n\t\t\t\t\t\tused for a variety of things.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Here are some:</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<ol>\n\t\t\t\t\t\t<li>Data analysis</li>\n\t\t\t\t\t\t<li>Game development</li>\n\t\t\t\t\t\t<li>Visualization</li>\n\t\t\t\t\t\t<li>Web development</li>\n\t\t\t\t\t\t<li>Robotics</li>\n\t\t\t\t\t\t<li>and more....</li>\n\t\t\t\t\t</ol>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tJobs in this field are really lucrative and knowing this language\n\t\t\t\t\t\twill give you an edge when finding a job and making a lot more money\n\t\t\t\t\t\tthan other developers; python developers are not as many as in other\n\t\t\t\t\t\tlanguages since people think is hard. Python is super easy to learn\n\t\t\t\t\t\tbut very powerful since it contains many possibilities.\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tPython is growing faster and faster everyday and it has surpassed\n\t\t\t\t\t\tmany other languages over the years for a lot of reasons, which you\n\t\t\t\t\t\twill find out soon enough.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t------------------------------------------------------------------------------\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Why take this course?</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis course starts with explaining what programming really is? Have\n\t\t\t\t\t\tyou ever wondered how things actually work in a program?\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t1. <strong>Teaches the foundation of GENERAL programming</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tEvery student should have some foundations on what programming\n\t\t\t\t\t\treally is before learning any language, why? Because once you\n\t\t\t\t\t\tunderstand the core components of programming it will be a lot\n\t\t\t\t\t\teasier to learn any language and create better programs.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t2. <strong>New lectures added all the time</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tWhen you like what you do, it reflects. This is not a job for me, so\n\t\t\t\t\t\tI wake up wanting to code and help my students. Basically you pay\n\t\t\t\t\t\tonce, get the course forever and get extra values added all the\n\t\t\t\t\t\ttime, you have to love that :)\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t3.<strong> Fun place to be </strong>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tI love making my lectures fun and engaging, so no boring lectures\n\t\t\t\t\t\there!\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t4. <strong>T</strong>\n\t\t\t\t\t\t<strong>he support you get in this course in unmatched</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\thave you ever joined a class and received very little support or\n\t\t\t\t\t\tnone at all? Well that is not going to happen in this class, because\n\t\t\t\t\t\tI love helping my students.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\t\t\t\t</div>",
+			"content": {
+				"sectionsCount": 6,
+				"lecturesCount": 42,
+				"totalDuration": "2h 36m",
+				"sections": [
+					{
+						"id": "1",
+						"title": "Programming fundamentals",
+						"subtitle": "10 lectures • 40min",
+						"items": [
+							{
+								"title": "Introduction to programming",
+								"duration": "00:15",
+								"previewable": true
+							},
+							{
+								"title": "What is programming?",
+								"duration": "03:10",
+								"previewable": false
+							}
+						]
+					},
+					{
+						"id": "2",
+						"title": "Getting started with Python",
+						"subtitle": "5 lectures • 15min",
+						"items": [
+							{
+								"title": "Intro to getting started with Python",
+								"duration": "10:15",
+								"previewable": false
+							},
+							{
+								"title": "What is Python?",
+								"duration": "04:23",
+								"previewable": false
+							}
+						]
+					}
+				]
+			},
+			"instructors": [
+				{
+					"name": "Edwin Diaz",
+					"subtitle": "Web Developer & Premium Instructor - 800,000 students",
+					"image": "https://img-c.udemycdn.com/user/200_H/6772884_fcfc_2.jpg",
+					"rating": "4.4",
+					"reviewsCount": "123,313",
+					"studentsCount": "828,692",
+					"coursesCount": "47",
+					"description": "<div><p class=\"\"><strong class=\"\">Edwin Diaz</strong> is a software and web technologies engineer, a life coach trainer who is also a<strong class=\"\"> serial entrepreneur</strong> with multiple <strong class=\"\">online businesses,</strong> ranging from online jewelry shops, affiliate websites, application development and consultations services, personal online schools, etc.</p><p class=\"\">With over <strong class=\"\">one million students</strong>, and clients growing by the thousands a day, Mr. Diaz lets the numbers speak for themselves.</p><p class=\"\">Founding multiple online companies have allowed Mr. Diaz to have the time to teach others. He currently teaches web technologies on different online platforms. He also teaches life coaching sessions to help others achieve a high level of success in many areas of life.</p><p>For Mr. Diaz, there is nothing more rewarding than helping others become successful.</p><p>His ability to transmit energy, enthusiasm, and complex knowledge allows him to do what he does best \"Teach\".</p><p>Teaching is not just a job for Mr. Diaz but a way of life that continues to flourish every single day.</p><p>Apart from teaching he enjoys spending part of his time with his family.</p></div>"
+				},
+				{
+					"name": "Coding Faculty Solutions",
+					"subtitle": "Coding Faculty",
+					"image": "https://img-c.udemycdn.com/user/200_H/34613172_6fb4.jpg",
+					"rating": "4.4",
+					"reviewsCount": "115,018",
+					"studentsCount": "737,350",
+					"coursesCount": "38",
+					"description": "<p class=\"\">Coding Faculty creates&nbsp;high quality technology training content.&nbsp;We aim to teach technology the right&nbsp;way but at the same time putting emphasis on each of&nbsp;our students.&nbsp;We are a&nbsp;growing team of&nbsp;professional trainers who love our work but overall helping our students reach their maximum potential in their career.</p>"
+				}
+			],
+			"feedback": {
+				"rating": 4.4,
+				"fiveStarsPercent": 45,
+				"fourStarsPercent": 39,
+				"threeStarsPercent": 13,
+				"twoStarsPercent": 2,
+				"oneStarsPercent": 1
+			},
+			"reviews": [
+				{
+					"name": "Ashu C.",
+					"shortName": "AC",
+					"rating": 3,
+					"date": "3 weeks ago",
+					"content": "Senduran B. Rating: 5.0 out of 5 3 weeks ago Edwin is a wonderful\n\t\t\t\t\tteacher! His lectures are very short but also informative and really\n\t\t\t\t\tencourages you to code along with him. The lectures were not only easy\n\t\t\t\t\tto follow but Edwin himself was an engaging lecturer that made it\n\t\t\t\t\treally easy to pay attention. His words of encouragement were a nice\n\t\t\t\t\tbonus. I super recommend this course to anyone who wants to get\n\t\t\t\t\tstarted in Python"
+				},
+				{
+					"name": "Senduran B.",
+					"shortName": "SB",
+					"rating": 5,
+					"date": "3 weeks ago",
+					"content": "Edwin is a wonderful teacher! His lectures are very short but also informative and really encourages you to code along with him. The lectures were not only easy to follow but Edwin himself was an engaging lecturer that made it really easy to pay attention. His words of encouragement were a nice bonus. I super recommend this course to anyone who wants to get started in Python"
+				}
+			]
+		},
+		"10": {
+			"info": {
+				"name": "Become a Certified HTML, CSS, JavaScript Web Developer",
+				"decription": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+				"creators": ["Avinash Jain", "The Codex"],
+				"path": ["Development", "Programming Languages", "Python"],
+				"img": "https://img-c.udemycdn.com/course/480x270/11475_9dac_14.jpg",
+				"lastUpdate": "Last updated 9/2015",
+				"language": "English",
+				"caption": "English",
+				"price": "E£679.99",
+				"isBestSeller": false,
+				"rating": 4.4,
+				"ratesCount": "18,097",
+				"enrolledsCount": "2800"
+			},
+			"learnGoals": [
+				"To learn the python language",
+				"To learn the CORE skills to understand any programming language"
+			],
+			"requirments": [
+				"Basic knowledge of programming",
+				"Have a computer (either Mac, Windows, or Linux)"
+			],
+			"description": "<div>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>NEW PYTHON CODE&nbsp;</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis python for beginners course is geared to students who want to\n\t\t\t\t\t\tknow how python works and also to those totally new to programming.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThe python language has very simple syntax(way to write it) to learn\n\t\t\t\t\t\tand it is one of the most powerful languages to learn since it can\n\t\t\t\t\t\tused for a variety of things.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Here are some:</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<ol>\n\t\t\t\t\t\t<li>Data analysis</li>\n\t\t\t\t\t\t<li>Game development</li>\n\t\t\t\t\t\t<li>Visualization</li>\n\t\t\t\t\t\t<li>Web development</li>\n\t\t\t\t\t\t<li>Robotics</li>\n\t\t\t\t\t\t<li>and more....</li>\n\t\t\t\t\t</ol>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tJobs in this field are really lucrative and knowing this language\n\t\t\t\t\t\twill give you an edge when finding a job and making a lot more money\n\t\t\t\t\t\tthan other developers; python developers are not as many as in other\n\t\t\t\t\t\tlanguages since people think is hard. Python is super easy to learn\n\t\t\t\t\t\tbut very powerful since it contains many possibilities.\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tPython is growing faster and faster everyday and it has surpassed\n\t\t\t\t\t\tmany other languages over the years for a lot of reasons, which you\n\t\t\t\t\t\twill find out soon enough.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t------------------------------------------------------------------------------\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Why take this course?</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis course starts with explaining what programming really is? Have\n\t\t\t\t\t\tyou ever wondered how things actually work in a program?\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t1. <strong>Teaches the foundation of GENERAL programming</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tEvery student should have some foundations on what programming\n\t\t\t\t\t\treally is before learning any language, why? Because once you\n\t\t\t\t\t\tunderstand the core components of programming it will be a lot\n\t\t\t\t\t\teasier to learn any language and create better programs.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t2. <strong>New lectures added all the time</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tWhen you like what you do, it reflects. This is not a job for me, so\n\t\t\t\t\t\tI wake up wanting to code and help my students. Basically you pay\n\t\t\t\t\t\tonce, get the course forever and get extra values added all the\n\t\t\t\t\t\ttime, you have to love that :)\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t3.<strong> Fun place to be </strong>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tI love making my lectures fun and engaging, so no boring lectures\n\t\t\t\t\t\there!\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t4. <strong>T</strong>\n\t\t\t\t\t\t<strong>he support you get in this course in unmatched</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\thave you ever joined a class and received very little support or\n\t\t\t\t\t\tnone at all? Well that is not going to happen in this class, because\n\t\t\t\t\t\tI love helping my students.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\t\t\t\t</div>",
+			"content": {
+				"sectionsCount": 6,
+				"lecturesCount": 42,
+				"totalDuration": "2h 36m",
+				"sections": [
+					{
+						"id": "1",
+						"title": "Programming fundamentals",
+						"subtitle": "10 lectures • 40min",
+						"items": [
+							{
+								"title": "Introduction to programming",
+								"duration": "00:15",
+								"previewable": true
+							},
+							{
+								"title": "What is programming?",
+								"duration": "03:10",
+								"previewable": false
+							}
+						]
+					},
+					{
+						"id": "2",
+						"title": "Getting started with Python",
+						"subtitle": "5 lectures • 15min",
+						"items": [
+							{
+								"title": "Intro to getting started with Python",
+								"duration": "10:15",
+								"previewable": false
+							},
+							{
+								"title": "What is Python?",
+								"duration": "04:23",
+								"previewable": false
+							}
+						]
+					}
+				]
+			},
+			"instructors": [
+				{
+					"name": "Edwin Diaz",
+					"subtitle": "Web Developer & Premium Instructor - 800,000 students",
+					"image": "https://img-c.udemycdn.com/user/200_H/6772884_fcfc_2.jpg",
+					"rating": "4.4",
+					"reviewsCount": "123,313",
+					"studentsCount": "828,692",
+					"coursesCount": "47",
+					"description": "<div><p class=\"\"><strong class=\"\">Edwin Diaz</strong> is a software and web technologies engineer, a life coach trainer who is also a<strong class=\"\"> serial entrepreneur</strong> with multiple <strong class=\"\">online businesses,</strong> ranging from online jewelry shops, affiliate websites, application development and consultations services, personal online schools, etc.</p><p class=\"\">With over <strong class=\"\">one million students</strong>, and clients growing by the thousands a day, Mr. Diaz lets the numbers speak for themselves.</p><p class=\"\">Founding multiple online companies have allowed Mr. Diaz to have the time to teach others. He currently teaches web technologies on different online platforms. He also teaches life coaching sessions to help others achieve a high level of success in many areas of life.</p><p>For Mr. Diaz, there is nothing more rewarding than helping others become successful.</p><p>His ability to transmit energy, enthusiasm, and complex knowledge allows him to do what he does best \"Teach\".</p><p>Teaching is not just a job for Mr. Diaz but a way of life that continues to flourish every single day.</p><p>Apart from teaching he enjoys spending part of his time with his family.</p></div>"
+				},
+				{
+					"name": "Coding Faculty Solutions",
+					"subtitle": "Coding Faculty",
+					"image": "https://img-c.udemycdn.com/user/200_H/34613172_6fb4.jpg",
+					"rating": "4.4",
+					"reviewsCount": "115,018",
+					"studentsCount": "737,350",
+					"coursesCount": "38",
+					"description": "<p class=\"\">Coding Faculty creates&nbsp;high quality technology training content.&nbsp;We aim to teach technology the right&nbsp;way but at the same time putting emphasis on each of&nbsp;our students.&nbsp;We are a&nbsp;growing team of&nbsp;professional trainers who love our work but overall helping our students reach their maximum potential in their career.</p>"
+				}
+			],
+			"feedback": {
+				"rating": 4.4,
+				"fiveStarsPercent": 45,
+				"fourStarsPercent": 39,
+				"threeStarsPercent": 13,
+				"twoStarsPercent": 2,
+				"oneStarsPercent": 1
+			},
+			"reviews": [
+				{
+					"name": "Ashu C.",
+					"shortName": "AC",
+					"rating": 3,
+					"date": "3 weeks ago",
+					"content": "Senduran B. Rating: 5.0 out of 5 3 weeks ago Edwin is a wonderful\n\t\t\t\t\tteacher! His lectures are very short but also informative and really\n\t\t\t\t\tencourages you to code along with him. The lectures were not only easy\n\t\t\t\t\tto follow but Edwin himself was an engaging lecturer that made it\n\t\t\t\t\treally easy to pay attention. His words of encouragement were a nice\n\t\t\t\t\tbonus. I super recommend this course to anyone who wants to get\n\t\t\t\t\tstarted in Python"
+				},
+				{
+					"name": "Senduran B.",
+					"shortName": "SB",
+					"rating": 5,
+					"date": "3 weeks ago",
+					"content": "Edwin is a wonderful teacher! His lectures are very short but also informative and really encourages you to code along with him. The lectures were not only easy to follow but Edwin himself was an engaging lecturer that made it really easy to pay attention. His words of encouragement were a nice bonus. I super recommend this course to anyone who wants to get started in Python"
+				}
+			]
+		},
+		"11": {
+			"info": {
+				"name": "The Complete 2020 Fullstack Web Developer Course",
+				"decription": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+				"creators": ["Avinash Jain", "The Codex"],
+				"path": ["Development", "Programming Languages", "Python"],
+				"img": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
+				"lastUpdate": "Last updated 9/2015",
+				"language": "English",
+				"caption": "English",
+				"price": "E£679.99",
+				"isBestSeller": false,
+				"rating": 4.5,
+				"ratesCount": "18,097",
+				"enrolledsCount": "6240"
+			},
+			"learnGoals": [
+				"To learn the python language",
+				"To learn the CORE skills to understand any programming language"
+			],
+			"requirments": [
+				"Basic knowledge of programming",
+				"Have a computer (either Mac, Windows, or Linux)"
+			],
+			"description": "<div>\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>NEW PYTHON CODE&nbsp;</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis python for beginners course is geared to students who want to\n\t\t\t\t\t\tknow how python works and also to those totally new to programming.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThe python language has very simple syntax(way to write it) to learn\n\t\t\t\t\t\tand it is one of the most powerful languages to learn since it can\n\t\t\t\t\t\tused for a variety of things.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Here are some:</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<ol>\n\t\t\t\t\t\t<li>Data analysis</li>\n\t\t\t\t\t\t<li>Game development</li>\n\t\t\t\t\t\t<li>Visualization</li>\n\t\t\t\t\t\t<li>Web development</li>\n\t\t\t\t\t\t<li>Robotics</li>\n\t\t\t\t\t\t<li>and more....</li>\n\t\t\t\t\t</ol>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tJobs in this field are really lucrative and knowing this language\n\t\t\t\t\t\twill give you an edge when finding a job and making a lot more money\n\t\t\t\t\t\tthan other developers; python developers are not as many as in other\n\t\t\t\t\t\tlanguages since people think is hard. Python is super easy to learn\n\t\t\t\t\t\tbut very powerful since it contains many possibilities.\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tPython is growing faster and faster everyday and it has surpassed\n\t\t\t\t\t\tmany other languages over the years for a lot of reasons, which you\n\t\t\t\t\t\twill find out soon enough.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t------------------------------------------------------------------------------\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<strong>Why take this course?</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tThis course starts with explaining what programming really is? Have\n\t\t\t\t\t\tyou ever wondered how things actually work in a program?\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t1. <strong>Teaches the foundation of GENERAL programming</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tEvery student should have some foundations on what programming\n\t\t\t\t\t\treally is before learning any language, why? Because once you\n\t\t\t\t\t\tunderstand the core components of programming it will be a lot\n\t\t\t\t\t\teasier to learn any language and create better programs.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t2. <strong>New lectures added all the time</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tWhen you like what you do, it reflects. This is not a job for me, so\n\t\t\t\t\t\tI wake up wanting to code and help my students. Basically you pay\n\t\t\t\t\t\tonce, get the course forever and get extra values added all the\n\t\t\t\t\t\ttime, you have to love that :)\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t3.<strong> Fun place to be </strong>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\tI love making my lectures fun and engaging, so no boring lectures\n\t\t\t\t\t\there!\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t4. <strong>T</strong>\n\t\t\t\t\t\t<strong>he support you get in this course in unmatched</strong>\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\thave you ever joined a class and received very little support or\n\t\t\t\t\t\tnone at all? Well that is not going to happen in this class, because\n\t\t\t\t\t\tI love helping my students.\n\t\t\t\t\t</p>\n\n\t\t\t\t\t<p>\n\t\t\t\t\t\t<br />\n\t\t\t\t\t</p>\n\t\t\t\t</div>",
+			"content": {
+				"sectionsCount": 6,
+				"lecturesCount": 42,
+				"totalDuration": "2h 36m",
+				"sections": [
+					{
+						"id": "1",
+						"title": "Programming fundamentals",
+						"subtitle": "10 lectures • 40min",
+						"items": [
+							{
+								"title": "Introduction to programming",
+								"duration": "00:15",
+								"previewable": true
+							},
+							{
+								"title": "What is programming?",
+								"duration": "03:10",
+								"previewable": false
+							}
+						]
+					},
+					{
+						"id": "2",
+						"title": "Getting started with Python",
+						"subtitle": "5 lectures • 15min",
+						"items": [
+							{
+								"title": "Intro to getting started with Python",
+								"duration": "10:15",
+								"previewable": false
+							},
+							{
+								"title": "What is Python?",
+								"duration": "04:23",
+								"previewable": false
+							}
+						]
+					}
+				]
+			},
+			"instructors": [
+				{
+					"name": "Edwin Diaz",
+					"subtitle": "Web Developer & Premium Instructor - 800,000 students",
+					"image": "https://img-c.udemycdn.com/user/200_H/6772884_fcfc_2.jpg",
+					"rating": "4.4",
+					"reviewsCount": "123,313",
+					"studentsCount": "828,692",
+					"coursesCount": "47",
+					"description": "<div><p class=\"\"><strong class=\"\">Edwin Diaz</strong> is a software and web technologies engineer, a life coach trainer who is also a<strong class=\"\"> serial entrepreneur</strong> with multiple <strong class=\"\">online businesses,</strong> ranging from online jewelry shops, affiliate websites, application development and consultations services, personal online schools, etc.</p><p class=\"\">With over <strong class=\"\">one million students</strong>, and clients growing by the thousands a day, Mr. Diaz lets the numbers speak for themselves.</p><p class=\"\">Founding multiple online companies have allowed Mr. Diaz to have the time to teach others. He currently teaches web technologies on different online platforms. He also teaches life coaching sessions to help others achieve a high level of success in many areas of life.</p><p>For Mr. Diaz, there is nothing more rewarding than helping others become successful.</p><p>His ability to transmit energy, enthusiasm, and complex knowledge allows him to do what he does best \"Teach\".</p><p>Teaching is not just a job for Mr. Diaz but a way of life that continues to flourish every single day.</p><p>Apart from teaching he enjoys spending part of his time with his family.</p></div>"
+				},
+				{
+					"name": "Coding Faculty Solutions",
+					"subtitle": "Coding Faculty",
+					"image": "https://img-c.udemycdn.com/user/200_H/34613172_6fb4.jpg",
+					"rating": "4.4",
+					"reviewsCount": "115,018",
+					"studentsCount": "737,350",
+					"coursesCount": "38",
+					"description": "<p class=\"\">Coding Faculty creates&nbsp;high quality technology training content.&nbsp;We aim to teach technology the right&nbsp;way but at the same time putting emphasis on each of&nbsp;our students.&nbsp;We are a&nbsp;growing team of&nbsp;professional trainers who love our work but overall helping our students reach their maximum potential in their career.</p>"
+				}
+			],
+			"feedback": {
+				"rating": 4.4,
+				"fiveStarsPercent": 45,
+				"fourStarsPercent": 39,
+				"threeStarsPercent": 13,
+				"twoStarsPercent": 2,
+				"oneStarsPercent": 1
+			},
+			"reviews": [
+				{
+					"name": "Ashu C.",
+					"shortName": "AC",
+					"rating": 3,
+					"date": "3 weeks ago",
+					"content": "Senduran B. Rating: 5.0 out of 5 3 weeks ago Edwin is a wonderful\n\t\t\t\t\tteacher! His lectures are very short but also informative and really\n\t\t\t\t\tencourages you to code along with him. The lectures were not only easy\n\t\t\t\t\tto follow but Edwin himself was an engaging lecturer that made it\n\t\t\t\t\treally easy to pay attention. His words of encouragement were a nice\n\t\t\t\t\tbonus. I super recommend this course to anyone who wants to get\n\t\t\t\t\tstarted in Python"
+				},
+				{
+					"name": "Senduran B.",
+					"shortName": "SB",
+					"rating": 5,
+					"date": "3 weeks ago",
+					"content": "Edwin is a wonderful teacher! His lectures are very short but also informative and really encourages you to code along with him. The lectures were not only easy to follow but Edwin himself was an engaging lecturer that made it really easy to pay attention. His words of encouragement were a nice bonus. I super recommend this course to anyone who wants to get started in Python"
+				}
+			]
+		}
+	}
+}
