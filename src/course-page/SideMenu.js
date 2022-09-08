@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CourseVideo from './CourseVideo';
 import './SideMenu.css';
 
 const SideMenu = ({ courseInfo }) => {
-	// TODO: fix bug scroll listener is not removed after leaving course page
-	document.addEventListener('scroll', () => {
+	const scrollHandler = () => {
 		const scrollValue = window.scrollY;
 		if (scrollValue > 370) {
 			document.querySelector('.side-menu').classList.add('side-menu-floating');
@@ -19,7 +18,15 @@ const SideMenu = ({ courseInfo }) => {
 				.querySelector('.side-menu-header')
 				.classList.remove('side-menu-header-floating');
 		}
-	});
+	};
+
+	useEffect(() => {
+		window.addEventListener('scroll', scrollHandler);
+		return () => {
+			window.removeEventListener('scroll', scrollHandler);
+		};
+	}, []);
+
 	return (
 		<div className='side-menu'>
 			<div className='side-menu-header'>
