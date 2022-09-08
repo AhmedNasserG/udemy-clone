@@ -1,35 +1,5 @@
-.courses-section {
-	/* padding: 30px; */
-}
 .category-description {
 	max-width: 700px;
-}
-
-.courses-container {
-	border: 1px solid gray;
-	margin-left: 0px;
-	margin-top: 10px;
-	text-align: start;
-}
-
-.category-description {
-	max-width: 700px;
-}
-
-.explore-button {
-	background-color: #f5f5f5;
-	border: 1px solid black;
-	width: 120px;
-	height: 40px;
-	padding: 10px;
-	color: #1c1d1f;
-	font-weight: 700;
-	margin-bottom: 20px;
-	font-size: 13px;
-}
-
-.explore-button:hover {
-	background-color: #eceb98;
 }
 
 .active {
