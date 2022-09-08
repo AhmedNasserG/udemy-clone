@@ -3,6 +3,7 @@ import CourseVideo from './CourseVideo';
 import './SideMenu.css';
 
 const SideMenu = ({ courseInfo }) => {
+	// TODO: fix bug scroll listener is not removed after leaving course page
 	document.addEventListener('scroll', () => {
 		const scrollValue = window.scrollY;
 		if (scrollValue > 370) {

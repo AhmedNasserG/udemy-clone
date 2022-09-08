@@ -22,11 +22,9 @@ const CourseHeader = ({ courseInfo }) => {
 					<div className='creators-section'>
 						Created by{' '}
 						{courseInfo.creators.map((creator) => (
-							<>
-								<span key={creator} className='creators-name'>
-									{creator}
-								</span>{' '}
-							</>
+							<span key={creator} className='creators-name'>
+								{creator}
+							</span>
 						))}
 					</div>
 					<div className='course-meta'>

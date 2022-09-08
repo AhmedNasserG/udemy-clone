@@ -3,7 +3,6 @@ import ContentItem from './ContentItem';
 import './ContentAccordion.css';
 
 const ContentAccordion = ({ section }) => {
-	console.log(section);
 	return (
 		<div className='accordion-item'>
 			<h2
