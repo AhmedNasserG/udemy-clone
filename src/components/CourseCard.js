@@ -1,11 +1,18 @@
 import React from 'react';
 import StarRatings from 'react-star-ratings';
-
+import { useNavigate } from 'react-router-dom';
 import './CourseCard.css';
 
 const CourseCard = ({ course }) => {
+	// TODO: fix navigating to mid of the course page
+	const navigate = useNavigate();
 	return (
-		<div className='course-card'>
+		<div
+			className='course-card'
+			onClick={() => {
+				navigate(`course/${course.id}`);
+			}}
+		>
 			<img src={course.image} alt={course.title} className='course-img'></img>
 			<div className='course-card-body'>
 				<p className='course-title'>{course.title}</p>
