@@ -1,17 +1,18 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return (
 		<nav className='navbar navbar-expand-lg bg-light'>
 			<div className='container-fluid'>
-				<a className='navbar-brand' href='/'>
+				<Link className='navbar-brand' to='/'>
 					<img
 						height='34'
 						src='https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg'
 						alt='udemy logo'
 					/>
-				</a>
+				</Link>
 				<button
 					className='navbar-toggler'
 					type='button'
