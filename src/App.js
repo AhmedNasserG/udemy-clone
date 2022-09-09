@@ -4,18 +4,26 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import CoursePage from './course-page/CoursePage';
 import Navbar from './components/Navbar';
+import { CategoriesContext } from './contexts/CategoriesContext';
 
-export const CategoriesContext = createContext([]);
 export const CoursesContext = createContext({});
 
 function App() {
-	const [categories, setCategories] = useState([]);
+	const [categories, setCategories] = useState({
+		data: null,
+		loading: true,
+		error: null,
+	});
 	const [courses, setCourses] = useState({});
 	useEffect(() => {
 		fetch('http://localhost:3000/categories')
 			.then((res) => res.json())
 			.then((data) => {
-				setCategories(data);
+				setCategories({
+					data: data,
+					loading: false,
+					error: null,
+				});
 			});
 		fetch('http://localhost:3000/courses')
 			.then((res) => res.json())

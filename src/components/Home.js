@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import CategoriesSection from './CategoriesSection';
 import TopCategories from './TopCategories';
-import { CategoriesContext } from '../App';
 import './Home.css';
+import { CategoriesContext } from '../contexts/CategoriesContext';
 
 const Home = () => {
-	const categories = useContext(CategoriesContext);
+	const CategoriesCTX = useContext(CategoriesContext);
 	return (
 		<div className='home'>
 			<header className='home-header'>
@@ -15,7 +15,14 @@ const Home = () => {
 					courses. Sale ends tonight!
 				</div>
 			</header>
-			<CategoriesSection categories={categories} />
+			{CategoriesCTX.loading && <div className='loading'>Loading...</div>}
+			{CategoriesCTX.error && (
+				<div className='error'>Error: {CategoriesCTX.error}</div>
+			)}
+			{CategoriesCTX.data && (
+				<CategoriesSection categories={CategoriesCTX.data} />
+			)}
+
 			<TopCategories />
 		</div>
 	);
