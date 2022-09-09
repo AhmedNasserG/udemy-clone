@@ -1,12 +1,11 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import CoursePage from './course-page/CoursePage';
 import Navbar from './components/Navbar';
 import { CategoriesContext } from './contexts/CategoriesContext';
-
-export const CoursesContext = createContext({});
+import { CoursesContext } from './contexts/CoursesContext';
 
 function App() {
 	const [categories, setCategories] = useState({
@@ -14,7 +13,11 @@ function App() {
 		loading: true,
 		error: null,
 	});
-	const [courses, setCourses] = useState({});
+	const [courses, setCourses] = useState({
+		data: null,
+		loading: true,
+		error: null,
+	});
 	useEffect(() => {
 		fetch('http://localhost:3000/categories')
 			.then((res) => res.json())
@@ -28,7 +31,11 @@ function App() {
 		fetch('http://localhost:3000/courses')
 			.then((res) => res.json())
 			.then((data) => {
-				setCourses(data);
+				setCourses({
+					data: data,
+					loading: false,
+					error: null,
+				});
 			});
 	}, []);
 

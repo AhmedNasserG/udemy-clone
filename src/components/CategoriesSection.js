@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import CategoryPanel from './CategoryPanel';
 import './CategoriesSection.css';
-import { CoursesContext } from '../App';
+import { CoursesContext } from '../contexts/CoursesContext';
 
 const filterCourses = (coursesData, searchTerm) => {
 	const filteredCourses = Object.keys(coursesData).filter((courseId) =>
@@ -17,7 +17,12 @@ const filterCourses = (coursesData, searchTerm) => {
 const CategoriesSection = ({ categories }) => {
 	const [searchParams, _setSearchParams] = useSearchParams();
 	const searchTerm = searchParams.get('search-term');
-	const coursesData = useContext(CoursesContext);
+	const CoursesCTX = useContext(CoursesContext);
+	if (CoursesCTX.loading) {
+		return <div>Loading...</div>;
+	} else if (CoursesCTX.error) {
+		return <div>Error: {CoursesCTX.error}</div>;
+	}
 	return (
 		<div className='courses-section'>
 			<h1>A broad selection of courses</h1>
@@ -43,7 +48,7 @@ const CategoriesSection = ({ categories }) => {
 							category={{
 								title: 'Search results',
 								description: `Search results for ${searchTerm}`,
-								courses: filterCourses(coursesData, searchTerm),
+								courses: filterCourses(CoursesCTX.data, searchTerm),
 							}}
 						/>
 					</TabPanel>

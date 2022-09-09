@@ -7,15 +7,18 @@ import CourseFooter from './CourseFooter';
 import InstructorCard from './InstructorCard';
 import Reviews from './Reviews';
 import StudentFeedback from './StudentFeedback';
-import { CoursesContext } from '../App';
 import './CoursePage.css';
+import { CoursesContext } from '../contexts/CoursesContext';
 
 const CoursePage = () => {
 	const courseId = useParams().courseId;
-	const courses = useContext(CoursesContext);
-	if (Object.keys(courses).length === 0) {
+	const CoursesCTX = useContext(CoursesContext);
+	if (CoursesCTX.loading) {
 		return <p>Loading ...</p>;
+	} else if (CoursesCTX.error) {
+		return <p>Error: {CoursesCTX.error}</p>;
 	}
+	const courses = CoursesCTX.data;
 	const course = courses[courseId];
 	return (
 		<div className='course-page'>

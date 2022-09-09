@@ -1,13 +1,11 @@
 import React, { useContext } from 'react';
 import CoursesSlider from './CoursesSlider';
 import './CategoryPanel.css';
-import { CoursesContext } from '../App';
+import { CoursesContext } from '../contexts/CoursesContext';
 
 const CategoryPanel = ({ category }) => {
-	const coursesData = useContext(CoursesContext);
-	if (Object.keys(coursesData).length === 0) {
-		return <p>Loading ...</p>;
-	}
+	const CoursesCTX = useContext(CoursesContext);
+	const coursesData = CoursesCTX.data;
 	const categoryCoursesInfoList = category.courses.map((courseId) => ({
 		id: courseId,
 		...coursesData[courseId].info,
