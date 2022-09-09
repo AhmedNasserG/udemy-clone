@@ -4,55 +4,13 @@
 			"name": "Python",
 			"title": "Expand your career opportunities with Python",
 			"description": "Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.",
-			"courses": [
-				{
-					"id": "0",
-					"image": "https://img-c.udemycdn.com/course/480x270/394676_ce3d_5.jpg",
-					"title": "Learn Python: The Complete Python Programming Course",
-					"instructor": "Avinash Jain, The Codex",
-					"rating": 4.4,
-					"studentCount": 3223,
-					"price": "E£679.99",
-					"bestSeller": true
-				},
-				{
-					"id": "1",
-					"image": "https://s.udemycdn.com/premium-clp/567828/CourseImage-2x.jpg",
-					"title": "python from zero to hero",
-					"instructor": "maximlian",
-					"rating": 3.4,
-					"studentCount": 4329,
-					"price": "$119.99",
-					"bestSeller": true
-				}
-			]
+			"courses": ["0", "1"]
 		},
 		{
 			"name": "Web Development",
 			"title": "Build websites and applications with Web Development",
 			"description": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
-			"courses": [
-				{
-					"id": "10",
-					"image": "https://img-c.udemycdn.com/course/480x270/11475_9dac_14.jpg",
-					"title": "Become a Certified HTML, CSS, JavaScript Web Developer",
-					"instructor": "Tech Learning Network, Mark Lassoff",
-					"rating": 4.4,
-					"studentCount": 2800,
-					"price": "E£679.99",
-					"bestSeller": false
-				},
-				{
-					"id": "11",
-					"image": "https://img-c.udemycdn.com/course/480x270/19332_6b49_15.jpg",
-					"title": "The Complete 2020 Fullstack Web Developer Course",
-					"instructor": "Kalob Taulien",
-					"rating": 4.5,
-					"studentCount": 6240,
-					"price": "E£1299.99",
-					"bestSeller": false
-				}
-			]
+			"courses": ["10", "11"]
 		}
 	],
 	"courses": {

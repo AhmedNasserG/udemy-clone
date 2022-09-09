@@ -28,25 +28,19 @@ function App() {
 		<div className='App'>
 			<CoursesContext.Provider value={courses}>
 				<Navbar />
+
+				<Routes>
+					<Route
+						path='/'
+						element={
+							<CategoriesContext.Provider value={categories}>
+								<Home />
+							</CategoriesContext.Provider>
+						}
+					/>
+					<Route path='course/:courseId' element={<CoursePage />} />
+				</Routes>
 			</CoursesContext.Provider>
-			<Routes>
-				<Route
-					path='/'
-					element={
-						<CategoriesContext.Provider value={categories}>
-							<Home />
-						</CategoriesContext.Provider>
-					}
-				/>
-				<Route
-					path='course/:courseId'
-					element={
-						<CoursesContext.Provider value={courses}>
-							<CoursePage />
-						</CoursesContext.Provider>
-					}
-				/>
-			</Routes>
 		</div>
 	);
 }
