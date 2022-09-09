@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import CategoryPanel from './CategoryPanel';
 import './CategoriesSection.css';
-import { CoursesContext } from '../contexts/CoursesContext';
+import { CoursesContext } from '../../contexts/CoursesContext';
 
 const filterCourses = (coursesData, searchTerm) => {
 	const filteredCourses = Object.keys(coursesData).filter((courseId) =>

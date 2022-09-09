@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import CategoriesSection from './CategoriesSection';
-import TopCategories from './TopCategories';
-import './Home.css';
+import CategoriesSection from '../components/homePageComponents/CategoriesSection';
+import TopCategories from '../components/homePageComponents/TopCategories';
+import HandleLoading from '../components/HandleLoading';
 import { CategoriesContext } from '../contexts/CategoriesContext';
-import HandleLoading from './HandleLoading';
 import { CoursesContext } from '../contexts/CoursesContext';
+import './Home.css';
 
 const Home = () => {
 	const CategoriesCTX = useContext(CategoriesContext);

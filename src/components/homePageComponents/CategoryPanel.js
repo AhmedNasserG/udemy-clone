@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import CoursesSlider from './CoursesSlider';
 import './CategoryPanel.css';
-import { CoursesContext } from '../contexts/CoursesContext';
+import { CoursesContext } from '../../contexts/CoursesContext';
 
 const CategoryPanel = ({ category }) => {
 	const CoursesCTX = useContext(CoursesContext);

@@ -1,16 +1,16 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import CourseContent from './CourseContent';
-import CourseHeader from './CourseHeader';
-import ExpandableHTMLContainer from './ExpandableHTMLContainer';
-import CourseFooter from './CourseFooter';
-import InstructorCard from './InstructorCard';
-import Reviews from './Reviews';
-import StudentFeedback from './StudentFeedback';
-import './CoursePage.css';
+import CourseHeader from '../components/coursePageComponents/CourseHeader';
+import CourseContent from '../components/coursePageComponents/CourseContent';
+import ExpandableHTMLContainer from '../components/coursePageComponents/ExpandableHTMLContainer';
+import InstructorCard from '../components/coursePageComponents/InstructorCard';
+import StudentFeedback from '../components/coursePageComponents/StudentFeedback';
+import Reviews from '../components/coursePageComponents/Reviews';
+import CourseFooter from '../components/coursePageComponents/CourseFooter';
 import { CoursesContext } from '../contexts/CoursesContext';
+import './Course.css';
 
-const CoursePage = () => {
+const Course = () => {
 	const courseId = useParams().courseId;
 	const CoursesCTX = useContext(CoursesContext);
 	if (CoursesCTX.loading) {
@@ -73,4 +73,4 @@ const CoursePage = () => {
 	);
 };
 
-export default CoursePage;
+export default Course;

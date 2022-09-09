@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import CoursePage from './course-page/CoursePage';
+import Home from './pages/Home';
+import Course from './pages/Course';
 import Navbar from './components/Navbar';
 import { CategoriesContext } from './contexts/CategoriesContext';
 import { CoursesContext } from './contexts/CoursesContext';
@@ -52,7 +52,7 @@ function App() {
 							</CategoriesContext.Provider>
 						}
 					/>
-					<Route path='course/:courseId' element={<CoursePage />} />
+					<Route path='course/:courseId' element={<Course />} />
 				</Routes>
 			</CoursesContext.Provider>
 		</div>
