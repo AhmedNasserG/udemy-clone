@@ -5,31 +5,34 @@ import './CourseCard.css';
 
 const CourseCard = ({ course }) => {
 	// TODO: fix navigating to mid of the course page
+	// TODO: fix styling of the course card
+	const { id, img, name, creators, rating, ratesCount, price, isBestSeller } =
+		course;
 	const navigate = useNavigate();
 	return (
 		<div
 			className='course-card'
 			onClick={() => {
-				navigate(`course/${course.id}`);
+				navigate(`course/${id}`);
 			}}
 		>
-			<img src={course.image} alt={course.title} className='course-img'></img>
+			<img src={img} alt={name} className='course-img'></img>
 			<div className='course-card-body'>
-				<p className='course-title'>{course.title}</p>
-				<p className='course-subtitle'>{course.instructor}</p>
+				<p className='course-title'>{name}</p>
+				<p className='course-subtitle'>{creators}</p>
 				<div className='course-rating'>
-					<p className='course-rating-text'>{course.rating}</p>
+					<p className='course-rating-text'>{rating}</p>
 					<StarRatings
-						rating={course.rating}
+						rating={rating}
 						starDimension='14px'
 						starSpacing='1px'
 						starRatedColor='#E59719'
 					/>
-					<p className='course-student-count'>({course.studentCount})</p>
+					<p className='course-student-count'>({ratesCount})</p>
 				</div>
-				<p className='course-price'>{course.price}</p>
+				<p className='course-price'>{price}</p>
 
-				{course.bestSeller && (
+				{isBestSeller && (
 					<div className='best-seller'>
 						<p className='best-seller-text'>Bestseller</p>
 					</div>
@@ -42,13 +45,13 @@ const CourseCard = ({ course }) => {
 // for testing purposes
 CourseCard.defaultProps = {
 	course: {
-		image: 'https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg',
-		title: 'Course Title',
-		instructor: 'Instructor',
+		img: 'https://img-c.udemycdn.com/course/240x135/426570_1b91_3.jpg',
+		name: 'Course Name',
+		creators: ['Instructor'],
 		rating: 4.5,
-		studentCount: 100,
+		ratesCount: 100,
 		price: '$100',
-		bestSeller: true,
+		isBestSeller: true,
 	},
 };
 
