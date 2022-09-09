@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import CategoryPanel from './CategoryPanel';
 import './CategoriesSection.css';
+import { CoursesContext } from '../App';
+
+const filterCourses = (coursesData, searchTerm) => {
+	const filteredCourses = Object.keys(coursesData).filter((courseId) =>
+		coursesData[courseId].info.name
+			.toLowerCase()
+			.includes(searchTerm.toLowerCase())
+	);
+	return filteredCourses;
+};
 
 const CategoriesSection = ({ categories }) => {
+	const [searchParams, _setSearchParams] = useSearchParams();
+	const searchTerm = searchParams.get('search-term');
+	const coursesData = useContext(CoursesContext);
 	return (
 		<div className='courses-section'>
 			<h1>A broad selection of courses</h1>
@@ -13,12 +27,27 @@ const CategoriesSection = ({ categories }) => {
 			</p>
 			<Tabs>
 				<TabList className={'tab-header'}>
+					{searchTerm !== null && (
+						<Tab className={'tab-header-item'}>Search results</Tab>
+					)}
 					{categories.map((category) => (
 						<Tab key={category.name} className={'tab-header-item'}>
 							{category.name}
 						</Tab>
 					))}
 				</TabList>
+
+				{searchTerm !== null && (
+					<TabPanel>
+						<CategoryPanel
+							category={{
+								title: 'Search results',
+								description: `Search results for ${searchTerm}`,
+								courses: filterCourses(coursesData, searchTerm),
+							}}
+						/>
+					</TabPanel>
+				)}
 
 				{categories.map((category) => (
 					<TabPanel key={category.name}>

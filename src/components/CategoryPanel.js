@@ -17,7 +17,9 @@ const CategoryPanel = ({ category }) => {
 		<div className='courses-container'>
 			<h2>{category.title}</h2>
 			<p className='category-description'>{category.description}</p>
-			<button className='explore-button'>Explore {category.name}</button>
+			{category.name && (
+				<button className='explore-button'>Explore {category.name}</button>
+			)}
 			<CoursesSlider courses={categoryCoursesInfoList} />
 		</div>
 	);

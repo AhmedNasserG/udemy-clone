@@ -1,8 +1,10 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+	const navigate = useNavigate();
+
 	return (
 		<nav className='navbar navbar-expand-lg bg-light'>
 			<div className='container-fluid'>
@@ -38,6 +40,14 @@ const Navbar = () => {
 									className='search-button-img'
 									src='https://img.icons8.com/ios-glyphs/344/search--v1.png'
 									alt='search icon'
+									onClick={() => {
+										const searchField = document.querySelector('.search-box');
+										const searchTerm = searchField.value;
+										navigate({
+											pathname: '/',
+											search: `search-term=${searchTerm}`,
+										});
+									}}
 								/>
 							</button>
 							<input
