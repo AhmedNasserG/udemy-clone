@@ -43,7 +43,6 @@ function App() {
 		<div className='App'>
 			<CoursesContext.Provider value={courses}>
 				<Navbar />
-
 				<Routes>
 					<Route
 						path='/'

@@ -17,7 +17,8 @@ module.exports = {
 			'error',
 			{
 				ignoreRestSiblings: true,
-				destructuredArrayIgnorePattern: '^_',
+				destructuredArrayIgnorePattern: '[A-Z]',
+				caughtErrors: 'none',
 				argsIgnorePattern: '^_',
 			},
 		],

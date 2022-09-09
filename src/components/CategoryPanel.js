@@ -5,11 +5,6 @@ import { CoursesContext } from '../contexts/CoursesContext';
 
 const CategoryPanel = ({ category }) => {
 	const CoursesCTX = useContext(CoursesContext);
-	const coursesData = CoursesCTX.data;
-	const categoryCoursesInfoList = category.courses.map((courseId) => ({
-		id: courseId,
-		...coursesData[courseId].info,
-	}));
 
 	return (
 		<div className='courses-container'>
@@ -18,7 +13,12 @@ const CategoryPanel = ({ category }) => {
 			{category.name && (
 				<button className='explore-button'>Explore {category.name}</button>
 			)}
-			<CoursesSlider courses={categoryCoursesInfoList} />
+			<CoursesSlider
+				courses={category.courses.map((courseId) => ({
+					id: courseId,
+					...CoursesCTX.data[courseId].info,
+				}))}
+			/>
 		</div>
 	);
 };

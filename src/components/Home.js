@@ -3,9 +3,12 @@ import CategoriesSection from './CategoriesSection';
 import TopCategories from './TopCategories';
 import './Home.css';
 import { CategoriesContext } from '../contexts/CategoriesContext';
+import HandleLoading from './HandleLoading';
+import { CoursesContext } from '../contexts/CoursesContext';
 
 const Home = () => {
 	const CategoriesCTX = useContext(CategoriesContext);
+	const CoursesCTX = useContext(CoursesContext);
 	return (
 		<div className='home'>
 			<header className='home-header'>
@@ -15,14 +18,11 @@ const Home = () => {
 					courses. Sale ends tonight!
 				</div>
 			</header>
-			{CategoriesCTX.loading && <div className='loading'>Loading...</div>}
-			{CategoriesCTX.error && (
-				<div className='error'>Error: {CategoriesCTX.error}</div>
-			)}
-			{CategoriesCTX.data && (
-				<CategoriesSection categories={CategoriesCTX.data} />
-			)}
-
+			<HandleLoading CTX={CategoriesCTX}>
+				<HandleLoading CTX={CoursesCTX}>
+					<CategoriesSection categories={CategoriesCTX.data} />
+				</HandleLoading>
+			</HandleLoading>
 			<TopCategories />
 		</div>
 	);

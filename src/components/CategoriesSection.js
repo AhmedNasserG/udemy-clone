@@ -18,11 +18,6 @@ const CategoriesSection = ({ categories }) => {
 	const [searchParams, _setSearchParams] = useSearchParams();
 	const searchTerm = searchParams.get('search-term');
 	const CoursesCTX = useContext(CoursesContext);
-	if (CoursesCTX.loading) {
-		return <div>Loading...</div>;
-	} else if (CoursesCTX.error) {
-		return <div>Error: {CoursesCTX.error}</div>;
-	}
 	return (
 		<div className='courses-section'>
 			<h1>A broad selection of courses</h1>
