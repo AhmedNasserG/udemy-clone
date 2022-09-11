@@ -1,0 +1,9 @@
+.loading {
+	display: flex;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.spinner {
+	margin-right: 10px;
+}

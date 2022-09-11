@@ -1,0 +1,43 @@
+.instructor-card {
+	margin-bottom: 24px;
+}
+
+.instructor-name {
+	color: #5624d0;
+	font-weight: 700;
+	font-size: 19px;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+.instructor-subtitle {
+	color: #6a6f73;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.instructor-image-and-stats {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.instuctor-image {
+	border-radius: 50%;
+	height: 112px;
+	width: 112px;
+	margin-right: 16px;
+}
+
+.instructor-stat {
+	font-weight: 400;
+	font-size: 14px;
+	padding: 4px 0;
+	display: flex;
+	align-items: center;
+}
+
+.instructor-stat-icon {
+	height: 13px;
+	margin-right: 16px;
+}

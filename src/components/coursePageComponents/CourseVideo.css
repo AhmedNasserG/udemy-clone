@@ -1,0 +1,28 @@
+.course-video {
+	height: 191px;
+	width: 340px;
+	position: relative;
+}
+
+.course-video-img {
+	width: 100%;
+	border: 2px solid white;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	/* TODO: add gredient overlay */
+}
+
+.img-overlay {
+	width: 100%;
+	position: absolute;
+}
+
+.course-video-icon {
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

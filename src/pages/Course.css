@@ -1,0 +1,44 @@
+.course-page-body {
+	width: 1184px;
+	height: auto;
+	margin: 0 auto;
+	padding: 32px;
+	padding-bottom: 77px;
+}
+
+.section {
+	width: 700px;
+	height: auto;
+	margin-left: 0;
+	margin-bottom: 32px;
+}
+
+.section-box {
+	border: 0.5px solid black;
+	padding: 24px 24px 16px 24px;
+}
+
+.section-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.sub-title {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.section ul {
+	padding-left: 14px;
+}
+
+@media screen and (max-width: 1080px) {
+	.course-page-body {
+		width: 100%;
+	}
+	.course-page-body .section {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

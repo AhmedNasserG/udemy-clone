@@ -1,0 +1,92 @@
+.course-footer {
+	height: 466px;
+	width: 100%;
+	background-color: #1c1d1f;
+	color: white;
+}
+
+.course-footer-top {
+	padding: 20px 48px;
+	display: flex;
+	align-items: center;
+}
+
+.course-footer-title {
+	font-weight: 700;
+	font-size: 19px;
+	padding: 12px 24px 12px 0;
+	flex: 1;
+}
+
+.course-footer-title a {
+	color: #cec0fc;
+	text-decoration: none;
+}
+
+.course-footer-logo {
+	height: 44px;
+	margin: 12px 24px 12px 0;
+}
+
+.course-footer-bottom {
+	border-top: 1px solid #3e4143;
+	padding: 48px 24px 48px 80px;
+}
+
+.course-footer-bottom ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 256px;
+}
+
+.course-footer-bottom a {
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 4px 0;
+}
+
+.course-footer-bottom button {
+	margin-left: auto;
+	height: 40px;
+	width: 140px;
+	border: 1px solid white;
+	color: white;
+	background-color: transparent;
+	text-align: start;
+	padding: 0 16px;
+	display: flex;
+	align-items: center;
+}
+
+.course-footer-bottom button img {
+	height: 24px;
+}
+
+.footer-lists {
+	display: flex;
+}
+
+.footer-logo-copywrites {
+	display: flex;
+	padding-top: 64px;
+	padding-bottom: 32px;
+}
+
+.footer-udemy-logo {
+	height: 34px;
+	margin-right: auto;
+}
+
+.copywrites {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1080px) {
+	.course-footer-top {
+		display: block;
+	}
+}
