@@ -14,9 +14,9 @@ const Course = () => {
 	const courseId = useParams().courseId;
 	const CoursesCTX = useContext(CoursesContext);
 	if (CoursesCTX.loading) {
-		return <p>Loading ...</p>;
+		return <p style={{ 'margin-top': '100px' }}>Loading ...</p>;
 	} else if (CoursesCTX.error) {
-		return <p>Error: {CoursesCTX.error}</p>;
+		return <p style={{ 'margin-top': '100px' }}>Error: {CoursesCTX.error}</p>;
 	}
 	const courses = CoursesCTX.data;
 	const course = courses[courseId];
